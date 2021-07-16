@@ -9,8 +9,9 @@ prompt(Email);
 // controlla che sia nella lista di chi può accedere
 var Email = ["peppo@gmail.com", "qualchemail@libero.it", "Emailemail.live.com"];
 // stampa un messaggio appropriato sull’esito del controllo.
-for (var i = 0; Email < Email.length; i++) {
+for (var i = 0; i < Email.length; i++) {
     
-    (Email[i]);
+    
+    alert(Email[i]);
 }
 
